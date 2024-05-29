@@ -10,7 +10,12 @@ NATIONAL INSTITUTE OF TECHNOLOGY KARNATAKA SURATHKAL, MANGALORE - 575025
 JUNE, 2024
  
  DECLARATION
-I hereby declare that the Report of the P.G. Project work entitled “RECONCILIATION FLOW CONTROL”, which is being submitted to the National Institute of Technology Karnataka Surathkal, in partial fulfillment of the requirement for the award of the Degree of Master of Computer Applications in the Department of Mathematical and Computational Sciences, is a bonafide report of the work carried out by me. The material contained in this Report has not been submitted to any University or Institution for the award of any degree.
+I hereby declare that the Report of the P.G. Project work entitled “RECONCILIATION
+FLOW CONTROL”, which is being submitted to the National Institute of Technology
+Karnataka Surathkal, in partial fulfillment of the requirements for the award of the Degree of
+Master of Computer Applications in the Department of Mathematical and Computational
+Sciences, is a bonafide report of the work carried out by me. The material contained in this
+Report has not been submitted to any University or Institution for the award of any degree.
 Department of Mathematical and Computational Sciences Place: NITK, SURATHKAL
 Date: 03-June-2024
 i
@@ -23,7 +28,6 @@ Mr. ANISH KURIAN
 Bengaluru, India
 Dr. VIVEK SINHA
 (Internal Project Guide) Assistant Professor, Department of MACS NITK, Surathkal Karnataka, India
-Dr. P. SAM JOHNSON
 Chairman – DPGC
 ii
 
@@ -50,7 +54,7 @@ CONTENTS
 1.2.2 ScrumFramework ........................ 2
 1.2.3 IterativeDevelopment ...................... 3
 1.2.4 ContinuousIntegrationandDeployment . . . . . . . . . . . . . 3
-1.3 ProductOverview............................. 4 1.3.1 FeaturesandFunctionalities ................... 4 1.3.2 BenefitsofUsingPayZapp.................... 4 1.3.3 TargetAudience ......................... 5 1.3.4 OverallStrategy ......................... 5 1.3.5 Availability............................ 5 1.3.6 AdditionalPointstoConsider .................. 5
+1.3 ProductOverview............................. 4 1.3.1 FeaturesandFunctionalities ................... 4 1.3.2 BenefitsofUsingPayZapp.................... 4 1.3.3 TargetAudience ......................... 5 1.3.4 OverallStrategy ......................... 5 1.3.5 Availability............................ 5 1.3.6 AdditionalPointstoConsider .................. 6
 2 Tools & Technologies Used 7
 2.1 Java:TheCoreProgrammingLanguage ................. 7
 2.2 Spring:ARobustDevelopmentFramework . . . . . . . . . . . . . . . 7
@@ -91,32 +95,32 @@ In June 2017, the company invested 5-10 crore to buy a minority stake in an HR c
 In 2019, Zeta received an investment from Sodexo BRS at a valuation of $300 mil- lion. In 2020, Zeta launched its technology platform-as-a-service in the Philippines and Vietnam, with Sodexo being its first client in these countries. In 2021, Zeta secured a Series C investment of $250 million from SoftBank Vision Fund 2, valuing Zeta at $1.45 billion. This is one of the largest single investments in a banking tech startup globally.
 1
 
-At Zeta, the focus is on rethinking payments from core to the edge. From algorithms to form factors, applications to solutions, Zeta is led by the vision to make payments invisible and seamless. Zeta has built an Omni Stack for Financial Institutions (FIs) covering debit, credit, prepaid, loans, authentication, and Fraud and Risk Management (FRM).
+The focus at Zeta is on rethinking payments from core to the edge. From algorithms to form factors, applications to solutions, Zeta is led by the vision to make payments invis- ible and seamless. An Omni Stack has been built by Zeta for Financial Institutions (FIs) covering debit, credit, prepaid, loans, authentication, and Fraud and Risk Management (FRM).
 1.2 SOFTWARE DEVELOPMENT METHODOLOGY
-The development of the web application, aimed at automating the creation of PayZapp follows a systematic approach grounded in industry best practices and principles of agile software development. The methodology emphasizes collaboration, iterative de- velopment, and responsiveness to changing requirements, enabling me to deliver a high- quality solution that meets the needs of the stakeholders effectively.
+The development of the web application, aimed at automating the creation of PayZapp, follows a systematic approach grounded in industry best practices and principles of agile software development. The methodology emphasizes collaboration, iterative de- velopment, and responsiveness to changing requirements, enabling the delivery of a high-quality solution that meets the needs of the stakeholders effectively.
 1.2.1 Agile Development Methodology
-I have adopted an agile development methodology to guide the project from inception to delivery. Agile methodologies prioritize flexibility, adaptability, and customer collabo- ration, allowing me to respond quickly to feedback and deliver incremental value with each iteration. By breaking down the project into manageable increments, or sprints, we can maintain a steady pace of development while continuously refining and enhancing the product.
+An agile development methodology has been adopted to guide the project from incep- tion to delivery. Agile methodologies prioritize flexibility, adaptability, and customer collaboration, allowing quick responses to feedback and the delivery of incremental value with each iteration. By breaking down the project into manageable increments, or sprints, a steady pace of development can be maintained while continuously refining and enhancing the product.
 1.2.2 Scrum Framework
-Within the agile paradigm, I employed the Scrum framework to structure the develop- ment process and facilitate effective teamwork. Scrum promotes transparency, inspec- tion, and adaptation through defined roles, ceremonies, and artifacts, ensuring clear communication and alignment among team members. Key components of the Scrum framework include:
+Within the agile paradigm, the Scrum framework was employed to structure the de- velopment process and facilitate effective teamwork. Scrum promotes transparency, inspection, and adaptation through defined roles, ceremonies, and artifacts, ensuring clear communication and alignment among team members. Key components of the Scrum framework include:
 • Sprint Planning: At the beginning of each sprint, the team collaboratively plans the work to be completed and commits to delivering a potentially shippable in- crement of functionality.
 • DailyStand-ups:Dailystand-upmeetingsprovideanopportunityforteammem- bers to synchronize their activities, discuss progress, and identify any impedi- ments or blockers.
 2
 
  Figure 1.1: Scrum Flow
-• Mid Sprint Check: Ensuring we’re on track with our sprint goals and identifying any blockers or adjustments needed.
+• Mid Sprint Check: Ensuring the sprint goals are on track and identifying any blockers or adjustments needed.
 • Sprint Review: At the end of each sprint, the team demonstrates the completed work to stakeholders and gathers feedback for future iterations.
 • Sprint Retrospective: A retrospective meeting allows the team to reflect on the previous sprint, identify areas for improvement, and adjust their processes ac- cordingly.
 1.2.3 Iterative Development
-The project follows an iterative development approach, whereby functionality is in- crementally developed, tested, and refined over multiple cycles. This iterative process allows to gather feedback early and often, validate assumptions, and make course cor- rections as needed. By delivering working software iteratively, I mitigated the risks associated with large-scale development efforts and ensure that the final product aligns closely with user needs and expectations.
+The project follows an iterative development approach, whereby functionality is in- crementally developed, tested, and refined over multiple cycles. This iterative pro- cess allows for gathering feedback early and often, validating assumptions, and making course corrections as needed. By delivering working software iteratively, risks associ- ated with large-scale development efforts are mitigated, ensuring that the final product aligns closely with user needs and expectations.
 1.2.4 Continuous Integration and Deployment
-To streamline the development and release processes, I have implemented continuous integration and deployment practices. Through automation and integration with version
+To streamline the development and release processes, continuous integration and de- ployment practices have been implemented. Through automation and integration with
 3
 
-control systems such as Git, we can automatically build, test, and deploy changes to our application in a consistent and reproducible manner. This enables to deliver updates to our users more frequently, with reduced risk and improved reliability.
+version control systems such as Git, automatic building, testing, and deployment of changes to the application are achieved in a consistent and reproducible manner. This enables frequent updates to be delivered to users with reduced risk and improved relia- bility.
 1.3 PRODUCT OVERVIEW
 PayZapp is a mobile wallet and online payment app offered by HDFC Bank in India. It acts as a versatile financial tool for users, enabling them to conduct a wide range of transactions conveniently and securely.
 1.3.1 Features and Functionalities
-• Payments: PayZapp eliminates the need to juggle multiple payment methods. Users can handle a variety of transactions directly through the app, including bill payments for mobile recharge, DTH subscriptions, and utilities. Online shop- ping becomes a breeze, and in-store purchases are simplified with QR code scans at partner merchants. PayZapp even allows for easy money transfers to other PayZapp users or any bank account in India, offering a one-stop shop for all your financial needs.
+• Payments: PayZapp eliminates the need to juggle multiple payment methods. Users can handle a variety of transactions directly through the app, including bill payments for mobile recharge, DTH subscriptions, and utilities. Online shop- ping becomes a breeze, and in-store purchases are simplified with QR code scans at partner merchants. PayZapp even allows for easy money transfers to other PayZapp users or any bank account in India, offering a one-stop shop for all fi- nancial needs.
 • Wallet and UPI Integration: PayZapp functions as a prepaid wallet that can be loaded with funds for seamless transactions. Additionally, it integrates with the Unified Payments Interface (UPI) for instant money transfers and QR code-based payments.
 • Travel and Entertainment Bookings: Users can book travel tickets (flights, trains, buses) and make hotel reservations directly through the app. Movie ticket bookings are also facilitated, and these bookings often come with cashback offers.
 • Security: PayZapp prioritizes user safety with robust security features, including PIN and biometric authentication for logins, password protection for transactions, and no storage of card information on the user’s device.
@@ -137,10 +141,9 @@ PayZapp doesn’t limit itself to a single user group. It strategically targets 
 This multi-pronged approach positions PayZapp to capture a significant share of the Indian mobile payments market. It caters to the growing tech-savvy population, offers financial inclusion to the unbanked, and provides solutions for small businesses.
 1.3.5 Availability
 The PayZapp app is readily available for download on the Google Play Store for An- droid devices and the Apple App Store for iOS devices.
-1.3.6 Additional Points to Consider
-• Competition: The Indian mobile wallet market is competitive. You may want to
-mention PayZapp’s competitors briefly in your report. 5
+5
 
+1.3.6 Additional Points to Consider
 • PayZapp for Business: HDFC Bank offers a separate service called ”PayZapp for Business” that allows businesses to receive payments from customers through the PayZapp platform.
 6
 
